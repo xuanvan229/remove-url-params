@@ -40,7 +40,7 @@ function App() {
 
     <div className='flex flex-col gap-10'>
       <div className="flex justify-between w-full items-center space-x-2 flex-1">
-        <Input className='flex-1' value={url} onChange={onChange} />
+        <Input placeholder='Paste your URL' className='flex-1' value={url} onChange={onChange} />
         <Button onClick={onAdd}>
           Add
         </Button>
